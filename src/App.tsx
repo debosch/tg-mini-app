@@ -15,6 +15,11 @@ function App() {
         <button onClick={() => WebApp.showAlert("Alert!")}>
             Show Alert
         </button>
+        <br />
+        <br />
+        <button onClick={() => WebApp.showScanQrPopup({text: ''})}>
+          Scan QR
+        </button>
     </>
   )
 }
